@@ -84,7 +84,7 @@ function plotThursday() {
     responsesDiv.append('div')
     var color = thursdayColors[Math.round(avg)]
     responsesDiv.append('div').style('background-color',color)
-      .text(Math.round(avg * 10) / 10)
+      .text(Math.round(avg * 10) / 10 + 1)
 
   })
 }
@@ -117,7 +117,7 @@ function plotExperience() {
     responsesDiv.append('div')
     var color = thursdayColors[Math.round(avg)]
     responsesDiv.append('div').style('background-color',color)
-      .text(Math.round(avg * 10) / 10)
+      .text(Math.round(avg * 10) / 10 + 1)
 
   })
 }

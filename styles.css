@@ -1,6 +1,9 @@
 body, html {
   font-family: 'Open Sans', sans-serif;
 }
+.description {
+  max-width: 750px;
+}
 .title {
   font-weight: bold;
   font-size: 24px;
