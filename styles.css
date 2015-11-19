@@ -1,0 +1,36 @@
+body, html {
+  font-family: 'Open Sans', sans-serif;
+}
+.title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.row:nth-child(even) {
+  background-color: #ddd;
+}
+.row .label {
+  float: left;
+  text-align: right;
+  width: 440px;
+  font-size: 14px;
+  height: 1.4em;
+  overflow: auto;
+}
+.row .responses {
+  float: left;
+}
+.responses > div {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
